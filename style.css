@@ -318,7 +318,7 @@ a:hover {
     transition: all 2s;
     z-index: 1;
   }
-  /* .burger:hover + nav {
+  .burger:hover + nav {
     display: block;
     left: 0vw;
   }
@@ -337,7 +337,7 @@ a:hover {
     header nav ul li:hover {
         background-color: rgb(206, 198, 198);
     }
-    */
+   
 
   .hero {
     padding: 20vw 5vw;
