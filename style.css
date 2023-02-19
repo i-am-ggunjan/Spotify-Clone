@@ -291,6 +291,50 @@ button {
   font-weight: bold;
 }
 
+.got-question {
+  padding: 13vh 13vw 13vh 13vw;
+  font-size: 1.6rem;
+}
+
+.got-question main {
+  border-bottom: 1px solid rgba(220, 217, 217, 0.681);
+}
+
+/* .got-question article {
+  padding: 3vh 13vw;
+} */
+
+.got-question h5 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.got-question .title {
+  border-radius: 5px;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.got-question .title h6 {
+  font-size: 1.6rem;
+}
+
+.got-question .title :nth-child(3) {
+  display: none;
+}
+
+.got-question p {
+  padding: 0 20px;
+  padding-bottom: 1rem;
+  display: none;
+}
+
+
 footer {
   background-color: black;
   padding: 3vh 13vw;
@@ -440,10 +484,15 @@ a:hover {
     gap: 2vw;
   }
 
-  .why-spoti .card {
-
+  .why-spoti .card-block .card {
     flex-direction: row;
-    /* text-align: left; */
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+
+  .why-spoti .card-block .card .card-para {
+    text-align: left;
+    flex-basis: 60%;
   }
 
   footer {
