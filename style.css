@@ -29,7 +29,7 @@ header {
   font-size: 1.6rem;
 }
 
-.burger {
+.burger1, .burger2 {
   display: none;
 }
 
@@ -482,8 +482,14 @@ a:hover {
   header article {
     padding: 2vh 5vw;
   }
-
-  .burger {
+ 
+  .burger2 {
+    display: none;
+    color: white;
+    font-size: 5rem;
+  }
+  
+  .burger1 {
     display: block;
     color: white;
     font-size: 5rem;

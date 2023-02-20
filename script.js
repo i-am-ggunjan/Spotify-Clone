@@ -1,17 +1,22 @@
 //! ==============Header Berger Section Start================= !//
-let burger = document.querySelector(".burger")
+let burger1 = document.querySelector(".burger1")
+let burger2 = document.querySelector(".burger2")
 let nav = document.querySelector("header nav")
 
-burger.addEventListener("click", show);
-burger.addEventListener("dblclick", hide);
+burger1.addEventListener("click", show);
+burger2.addEventListener("click", hide);
 
 function show() {
     nav.style.display = "block";
     nav.style.left = "0vw";
+    burger1.style.display="none";
+    burger2.style.display = "block"
 }
 
 function hide() {
     nav.style.left = "-50vw";
+    burger1.style.display = "block";
+    burger2.style.display="none";
 }
 //! ==============Header Berger Section Start================= !//
 
@@ -50,6 +55,7 @@ function show2() {
     close2.style.display = "block";
 
 }
+
 function hide2() {
     p2.style.display = "none";
     open2.style.display = "block";
